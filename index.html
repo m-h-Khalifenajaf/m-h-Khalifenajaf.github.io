@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mohammad Hossein Khalife Najaf | Portfolio</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Tahoma, Arial, sans-serif;
+        background: #f1f5f9;
+        color: #1e293b;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 16px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 560px;
+        background: #ffffff;
+        padding: 36px;
+        border-radius: 20px;
+        box-shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
+    }
+
+    .header {
+        text-align: center;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .name-en {
+        direction: ltr;
+        font-size: 25px;
+        line-height: 1.6;
+        margin-bottom: 8px;
+    }
+
+    .name-fa {
+        font-size: 22px;
+        color: #475569;
+        margin-bottom: 20px;
+    }
+
+    .education {
+        line-height: 2;
+        font-size: 15px;
+        color: #475569;
+    }
+
+    .interests {
+        margin-top: 10px;
+        color: #334155;
+    }
+
+    .section-title {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .skills-section {
+        padding: 25px 0;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .skill {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 12px;
+    }
+
+    .skill-name {
+        direction: ltr;
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .skill-level {
+        font-size: 12px;
+        color: #64748b;
+    }
+
+    .learning {
+        color: #2563eb;
+    }
+
+    .social-section {
+        border-top: 1px solid #e2e8f0;
+        padding-top: 24px;
+        text-align: center;
+    }
+
+    .social-section p {
+        font-size: 14px;
+        color: #64748b;
+        margin-bottom: 16px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .button {
+        display: inline-block;
+        min-width: 130px;
+        padding: 12px 22px;
+        border-radius: 9px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .button:hover {
+        transform: translateY(-2px);
+        opacity: 0.9;
+    }
+
+    .github {
+        background: #1e293b;
+        color: #ffffff;
+    }
+
+    .linkedin {
+        background: #0a66c2;
+        color: #ffffff;
+    }
+
+    .footer {
+        text-align: center;
+        color: #94a3b8;
+        font-size: 12px;
+        margin-top: 24px;
+    }
+
+    @media (max-width: 480px) {
+        .card {
+            padding: 25px 18px;
+        }
+
+        .name-en {
+            font-size: 21px;
+        }
+
+        .name-fa {
+            font-size: 20px;
+        }
+
+        .skills {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+<main class="card">
+
+    <header class="header">
+        <h1 class="name-en">
+            Mohammad Hossein Khalife Najaf
+        </h1>
+
+        <h2 class="name-fa">
+            محمد حسین خلیفه نجف
+        </h2>
+
+        <div class="education">
+            <p>کارشناسی مهندسی کامپیوتر</p>
+            <p>دانشگاه اصفهان | University of Isfahan</p>
+        </div>
+
+        <p class="interests">
+            علاقه‌مند به توسعه Back-end و هوش مصنوعی (AI)
+        </p>
+    </header>
+
+    <section class="skills-section">
+        <h3 class="section-title">
+            مهارت‌ها | Skills
+        </h3>
+
+        <div class="skills">
+
+            <div class="skill">
+                <div class="skill-name">Python</div>
+                <div class="skill-level">متوسط | Intermediate</div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">C++</div>
+                <div class="skill-level">متوسط | Intermediate</div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Linux</div>
+                <div class="skill-level">مقدماتی | Beginner</div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Network+</div>
+                <div class="skill-level">مقدماتی | Beginner</div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">CCNA</div>
+                <div class="skill-level">مقدماتی | Beginner</div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">FastAPI</div>
+                <div class="skill-level learning">در حال یادگیری | Learning</div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Git</div>
+                <div class="skill-level learning">در حال یادگیری | Learning</div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">SQL</div>
+                <div class="skill-level">آشنایی اولیه | Basic Knowledge</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="social-section">
+        <p>برای آشنایی بیشتر با من، از پروفایل‌هایم دیدن کنید.</p>
+
+        <div class="buttons">
+            <a
+                class="button github"
+                href="https://github.com/m-h-Khalifenajaf"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+
+            <a
+                class="button linkedin"
+                href="https://www.linkedin.com/in/mohammad-hossein-3480ab362/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        Personal Portfolio
+    </footer>
+
+</main>
+
+</body>
+</html>
